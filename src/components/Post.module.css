@@ -1,0 +1,75 @@
+.post {
+    background: var(--gray-800);
+    padding: 2.5rem;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.post header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.post header time {
+    margin-left: auto;
+    color: var(--gray-400);
+    font-size: 0.875rem;
+}
+
+.post header .authorInfo {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.post header .authorInfo span {
+    font-size: 0.875rem;
+    color: var(--gray-400);
+}
+
+.post p {
+    margin-bottom: 1.5rem;
+    color: var(--gray-300);
+}
+
+.post p a {
+    text-decoration: none;
+    color: var(--green-500);
+    font-weight: 700;
+}
+
+.commentForm {
+    border-top: 1px solid var(--gray-600);
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.commentForm textarea {
+    background: var(--gray-900);
+    padding: 0.812rem 1rem;
+    resize: none;
+    border-radius: 8px;
+    border: none;
+    height: 6rem;
+    color: var(--gray-300);
+}
+
+.commentForm textarea:focus {
+    outline: 1px solid var(--green-500);
+}
+
+.commentForm button {
+    background-color: var(--green-500);
+    padding: 1rem 1.5rem;
+    color: var(--white);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
